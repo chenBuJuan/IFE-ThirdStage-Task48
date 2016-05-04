@@ -134,11 +134,11 @@ function beginGame(){//开始游戏函数
 	ctx.fillText("王牌特工",canWidth * 0.5,canHeight * 0.2);
     
     ctx.font = "18px Arial";
-    ctx.fillText("扮演特工",canWidth * 0.5,canHeight * 0.4);
-    ctx.fillText("杀死守卫",canWidth * 0.5,canHeight * 0.5);
-    ctx.fillText("解救人质",canWidth * 0.5,canHeight * 0.6);
-    ctx.font = "20px Arial";
-    ctx.fillText("点击开始",canWidth * 0.5,canHeight * 0.9);
+    ctx.fillText("特工",canWidth * 0.5,canHeight * 0.4);
+    ctx.fillText("守卫",canWidth * 0.5,canHeight * 0.5);
+    ctx.fillText("点击可以移动",canWidth * 0.5,canHeight * 0.7);
+    ctx.fillText("也可以杀死守卫",canWidth * 0.5,canHeight * 0.8);
+    ctx.fillText("还可以开始游戏",canWidth * 0.5,canHeight * 0.9);
     
     ctx.fillStyle = "#44B811";
     ctx.beginPath();
@@ -149,12 +149,6 @@ function beginGame(){//开始游戏函数
     ctx.fillStyle = "#F05F48";
     ctx.beginPath();
     ctx.arc(canWidth * 0.3,canHeight * 0.5 - 4,10,0,Math.PI*2);
-    ctx.closePath();
-    ctx.fill();
-    
-    ctx.fillStyle = "#F4AF29";
-    ctx.beginPath();
-    ctx.arc(canWidth * 0.3,canHeight * 0.6 - 4,10,0,Math.PI*2);
     ctx.closePath();
     ctx.fill();
     
